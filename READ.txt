@@ -1,0 +1,5 @@
+First Select the 2-D shape you want to extrude.
+Then you see your extruded object.
+Click on move to move extruded object on ground.
+Then you can edit your shape if you want to.
+Finally we diplay your final shape.

@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/style.css">
+  <title>Babylon Js</title>
+</head>
+
+<body>
+  <div id="main">
+    <div id="app">
+
+      <div id="screen1">
+        <div id="left">
+          <div id="heading">
+            <h1>
+              Create 3-D Shapes
+            </h1>
+          </div>
+          <div id="draw">
+            Draw
+          </div>
+        </div>
+        <div id="image">
+          <img src="./image1.png" alt="">
+        </div>
+      </div>
+
+      <div id="screen2" style="display: none;">
+        <div id="para1">
+          <p>
+            Click on plane to add points for shape you want to extrude
+          </p>
+        </div>
+        <div id="para2">
+          <p>
+            Add points in clockwise direction and Select atleast 3 Points
+          </p>
+        </div>
+        <div id="drawScene">
+          <canvas id="drawCanvas"></canvas>
+        </div>
+        <div id="extrude">
+          extrude
+        </div>
+      </div>
+
+      <div id="screen3" style="display: none;">
+        <div id="heading2">
+          <h2>
+            Your Extruded 3-D Shape
+          </h2>
+        </div>
+        <div id="extrudeScene" style="display: none;">
+          <canvas id="extrudeCanvas"></canvas>
+        </div>
+        <div id="button">
+          <div id="edit">
+            edit
+          </div>
+
+        </div>
+      </div>
+
+      <div id="screen4" style="display: none;">
+        <div id="heading">
+          <h2 id="heading21">
+            Edit Your Shape
+          </h2>
+          <h2 id="final" style="display: none;">
+            Final Shape!!
+          </h2>
+        </div>
+        <div id="editScene">
+          <canvas id="editCanvas"></canvas>
+        </div>
+        <div id="finalScene">
+          <canvas id="finalCanvas"></canvas>
+        </div>
+        <div id="finish">
+          Finish Edit
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <script src="https://cdn.babylonjs.com/babylon.gridMaterial.min.js"></script>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
